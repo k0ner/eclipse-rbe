@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.essiembre.eclipse.rbe</groupId>
-  <artifactId>eclipse-rbe</artifactId>
+  <artifactId>com.essiembre.eclipse.rbe.parent</artifactId>
   <version>1.0.5</version>
   <packaging>pom</packaging>
 

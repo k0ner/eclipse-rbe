@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="com.essiembre.eclipse.rbe"
+      id="com.essiembre.eclipse.rbe.feature"
       label="ResourceBundle Editor"
       version="1.0.5"
       provider-name="Pascal Essiembre"
