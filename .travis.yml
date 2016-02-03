@@ -1,1 +1,8 @@
 language: java
+
+after_success:
+  - test $TRAVIS_BRANCH == "master" && sh publish-to-bintray.sh k0ner ${BINTRAY_APIKEY} k0ner eclipse-rbe eclipse-rbe XXX eclipse-rbe-update-site/target/repository
+
+env:
+  global:
+    secure: aSuZiBYrcHL2Wmbtnf/3q7/H9QRB6GaAWfJZ9vvqkyKUiknbHycKGbVFNnw7EQdHFTJCOl7FupaJ8J80Rk3Xe7rrWCU+ZmrTpcGOGnkX6fqNRQTsw9dxpW9JA4ZejisR95L29UhQAk9n3jXXNcO6cR+XlB5YnKMcErT/EwWjXJVHvVjFKRAYPE8kolp8nqPp1uYrplq8+fkihpddxPNRibpUSUwl9P7oWBHmhTCtf/DL15YPZcnsPKYVVl/nr5ncBHfkFT6izFIbw78MECYNXUCbkAnHpQ9YKZitBJLtXlbuTspeNDTosn1wLDuA0oiQuUr1Gl3JhD9dADWByGtuATnnOv2n2vdW4UQE+v4r1+Yv9wo2cyLfMRCKs9ADQmCEIXHW/djrqASSsljSiTC4zBZBU6gsSGeIyvvqfX6tFWSPfmf/KzpjJU9D1wKZGEQnCmJREwRK/XjNrTcmUQbKDRBVHoADmPe7NXIx6HDiPm0ySvjGFp7757IMbziKzQj9GKgDp50xdPvG7eHD/7dv5cIS3TOV/XdPZCUIRpdGseJFe7/WwvF4vwx00ZiI0pIdNPFbHpinpnGC9MSKDbuQPkkgTtWstcnFaNeIjnaISeNW985Dff5dF9RabBOXfRn6BfbK6THnNy2QdglbAcySo8T0s6m8vEr+zy04APPplpA=
