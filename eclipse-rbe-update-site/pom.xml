@@ -7,9 +7,7 @@
     <artifactId>com.essiembre.eclipse.rbe.parent</artifactId>
     <version>1.0.5</version>
   </parent>
-  <groupId>com.essiembre.eclipse.rbe</groupId>
   <artifactId>com.essiembre.eclipse.rbe.site</artifactId>
-  <version>1.0.5</version>
   <packaging>eclipse-repository</packaging>
 
   <build>

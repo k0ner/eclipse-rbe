@@ -234,10 +234,10 @@
    </requires>
 
    <plugin
-         id="com.essiembre.eclipse.rbe"
+         id="com.essiembre.eclipse.rbe.plugin"
          download-size="0"
          install-size="0"
-         version="1.0.5"
+         version="0.0.0"
          unpack="false"/>
 
 </feature>
